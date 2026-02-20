@@ -1,0 +1,65 @@
+
+/* Heading Center */
+h1,h3{
+    color: #2E4359;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Form Container */
+form{
+    width: 800px;              /* HTML width replace */
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;    /* HTML border replace */
+}
+
+
+
+
+/* Table Full Width */
+table{
+    width: 100%;               /* HTML width="100%" replace */
+    border-collapse: collapse; /* cellspacing remove */
+    margin-bottom: 20px;       /* spacing between tables */
+}
+
+/* Table Border */
+table, th, td{
+    border: 1px solid #ccc;    /* border="1" replace */
+}
+
+/* Cell Padding */
+th, td{
+    padding: 10px;             /* cellpadding replace */
+    text-align: left;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+    width: 100%;               /* better than 95% */
+    padding: 8px;
+    box-sizing: border-box;    /* width overflow fix */
+}
+
+/* Submit Button */
+input[type="submit"]{
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Optional: Radio & Checkbox spacing */
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
