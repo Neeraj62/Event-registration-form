@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Event Registration Form</h1>
+
+<form>
+
+<!-- About This Event -->
+<h3>Event This Event</h3>
+<table border="1" width="100%" cellpadding="8">
+    <tr>
+        <th>Event Name</th>
+        <td>Digital Marketing Masterclass</td>
+    </tr>
+    <tr>
+        <th>Date</th>
+        <td>October 15, 2028</td>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <td>2:00 PM - 4:00 PM</td>
+    </tr>
+    <tr>
+        <th>Speaker</th>
+        <td>Sarah Johnson</td>
+    </tr>
+</table>
+
+<br><hr><br>
+
+<!-- Participant Information -->
+<h3>Participant Information</h3>
+
+<table width="100%" cellpadding="10">
+    <tr>
+        <td>Full Name</td>
+        <td>Date of Birth</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="fullname"></td>
+        <td><input type="date" name="dob"></td>
+    </tr>
+
+    <tr>
+        <td>Phone Number</td>
+        <td>Email</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="phone"></td>
+        <td><input type="email" name="email"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </td>
+    </tr>
+</table>
+
+<br><hr><br>
+
+<!-- Payment Information -->
+<h3>Payment Information</h3>
+
+<table width="100%" cellpadding="10">
+    <tr>
+        <td>Number of Tickets</td>
+        <td>Payment Method</td>
+    </tr>
+    <tr>
+        <td><input type="number" name="tickets"></td>
+        <td>
+            <input type="radio" name="payment"> Credit Card
+            <input type="radio" name="payment"> Debit Card
+            <input type="radio" name="payment"> Cash
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="checkbox" name="agree">
+            Yes, I understand
+        </td>
+    </tr>
+
+    <tr>
+        <td>Signature</td>
+        <td>Date</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="signature"></td>
+        <td><input type="date" name="signeddate"></td>
+    </tr>
+</table>
+
+<br><br>
+
+<center>
+    <input type="submit" value="Register">
+</center>
+
+</form>
+
+</body>
+</html>
